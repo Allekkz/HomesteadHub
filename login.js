@@ -4,7 +4,7 @@ function logar() {
 
     if(barra1.value!="" && barra2.value!="") {
         if(barra1.value=="admin" && barra2.value=="admin"){
-            window.location.href = "index.html"
+            window.location.href = "HomesteadHub.html"
         }
         else{
             alert("Login ou senha incorretos!")
