@@ -98,7 +98,7 @@ function autoComplete() {
     lista.innerHTML = "";
     var limite = 0;
     if (barra.value != "") {
-        if (barra.value.length >= 2 && barra.value.length <= 5) {
+        if (barra.value.toLowerCase().length >= 2 && barra.value.toLowerCase().length <= 5) {
 
 
             for (var i = 0; i < sugestoes.length; i++) {
